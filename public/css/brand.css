@@ -1,0 +1,122 @@
+/* brand*/
+section.brand{
+    width:80%;
+    height: 141px;
+    margin:0 auto;
+    border:1px solid rgb(211 216 228);
+  vertical-align:middle;
+    border-radius:20px;
+ 
+    line-height: 141px;
+
+}
+
+
+  section.brand >div.best-brands{
+    display: inline-block;
+    width: 213.98px;
+    height:141px;
+   background-image: linear-gradient(90deg, #0079b1, #1b3570);
+  border-radius:0 20px 20px 0;
+  text-align: center;
+line-height:20px;
+vertical-align:top;
+}
+
+section.brand >div.best-brands>svg{
+    width:2rem;
+    height:2rem;
+    /* margin: 0 auto; */
+    display: block;
+    margin:30px auto 20px;
+
+}
+section.brand >div.best-brands>span{
+   height:10px;
+    font-size:16px;
+   color: white;
+   margin: 0 auto;
+   line-height:20px;
+   font-size:20px;
+   font-weight:600;
+
+}
+ 
+section.brand >div.brand-content {
+    width:85%;
+    height:70%;
+    margin:0 auto;
+    vertical-align: middle;
+
+  
+
+
+    display: inline-block;
+  }
+  
+  /* technooff-content-slider */
+  section.brand > div.brand-content > div.swiper {
+    width: 100%;
+    height:99%;
+    margin: 10px auto;
+  
+
+  }
+  
+  section.brand
+    > div.brand-content
+    > div.swiper
+    > div.swiper-wrapper
+    > div.swiper-slide {
+    width: 190px;
+    height: 90%;
+    display: block;
+    /* margin: 0 auto; */
+    font-size: 12px;
+
+  }
+  
+ 
+  section.brand
+    > div.brand-content
+    > div.swiper
+    > div.swiper-wrapper
+    > div.swiper-slide
+    > div.slide {
+    border-left: 2px solid #c0c0c0;
+    width:212px;
+    height:95%;
+    text-align: center;
+
+
+  }
+  
+  section.brand
+    > div.brand-content
+    > div.swiper
+    > div.swiper-wrapper
+    > div.swiper-slide
+    > div.slide>a
+    > img {
+    width:115.5px;
+    height:87.5px;
+    margin: 0 auto;
+  } 
+  /* section.brand
+    > div.brand-content
+    > div.swiper
+    > div.swiper-wrapper
+    > div.swiper-slide
+    > div.slide
+    > a {
+    color: #212121;
+    display: inline-block;
+    width: 186px;
+    height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    padding: 16px 0 0;
+  }*/
+  
+ 

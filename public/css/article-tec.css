@@ -1,0 +1,61 @@
+article{
+    border-top:2px solid rgb(215 222 224);
+    width:80%;
+    margin:0 auto;
+    padding:32px 0 0;
+
+}
+article>h1{
+    width:100%;
+    height:40px;
+    font-size:16px;
+    font-weight:600;
+    color:#333333;
+ margin:0 0 8px;
+}
+article>p, article>div.more>div.next>p{
+    line-height:2.5;
+    font-size:14px;
+    color: #5f5f5f;
+}
+article>p>a,article>div.more>div.next>p>a{
+    color:#14A0de;
+}
+article>h2 ,article>div.more>div.next>h2{
+    width:100%;
+    height:40px;
+    font-size:16px;
+    font-weight:600;
+    color:#333333;
+ margin:20px 0 8px;
+}
+/* نمایش بیشتر */
+article>div.more{
+    width: 1600px;
+    margin:32px auto;
+    
+    
+      /* background-color: brown; */
+    }
+    article>div.more>a{
+        color:#223c78;
+        font-size: 16px;
+
+    }
+    article>div.more>a>svg{
+        width: 24px;
+        height: 24px;
+        vertical-align: middle;
+    }
+    
+    article>div.more>div.next{
+      width: 100%;
+      height: 300px;
+      /* background-color: blueviolet; */
+      display: none;
+    }
+    article>div.more:hover>div.next{
+      display: block;
+      height:325vh;
+    }
+

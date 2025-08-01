@@ -1,0 +1,352 @@
+/* menu */
+
+ul.sub-mwnu {
+  width: 91%;
+  height: 36px;
+  margin: 3px auto 9px;
+}
+ul.sub-mwnu > li {
+  display: inline-block;
+  list-style: none;
+  direction: rtl;
+  margin: 2px 5px;
+  padding: 10px 8px;
+  position: relative;
+}
+ul.sub-mwnu > li > a {
+  color: #666;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+ul.sub-mwnu > li > a > span.svg > svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  vertical-align: middle;
+  margin-left: 10px;
+  cursor: pointer;
+}
+/* دکمه جدید */
+ul.sub-mwnu > li > span.jadid {
+  background-color: #ffd6e8;
+  color: #9f1853;
+  font-size: 10px;
+  line-height: 18px;
+  border-radius: 25px;
+  padding: 0 8px;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  font-weight: 600;
+  margin: 5px;
+}
+/* -----------------------sub menus-------------------- */
+/* sub-sub-mwnu */
+ul.sub-mwnu > li > ul.sub-menu {
+  width: 290px;
+  height: 100vh;
+  position: absolute;
+  right: -96px;
+  top:100%;
+  display: none;
+  text-align: right;
+  background-color: #ffffff;
+  z-index: 9999999;
+
+     
+}
+
+ul.sub-mwnu > li:hover ul.sub-menu {
+  display: block;
+}
+ul.sub-menu > li {
+  height: 60px;
+  width: 95%;
+  margin: 0 5px;
+  position: relative;
+  line-height: 60px;
+  border-bottom: 1px solid #d8d3d3;
+  padding-top: 3px;
+}
+ul.sub-menu > li > a {
+  width: 100%;
+  height: 90%;
+
+  display: inline-block;
+  line-height: 60px;
+  color: black;
+}
+
+ul.sub-menu > li > a > span.ico {
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  border: 1px solid #e6e0e0;
+  border-radius: 50%;
+  margin-left: 20px;
+  vertical-align: middle;
+  text-align: center;
+  background-color: white;
+}
+
+span.content {
+  display: inline-block;
+  width: 50%;
+  font-size: 14px !important;
+}
+span.back {
+  display: inline-block;
+  width: 15%;
+
+  vertical-align: middle;
+  line-height: 60px;
+  display: none;
+}
+
+ul.sub-menu > li:hover > a {
+  background-color: #f3f8fd;
+  border-radius: 10px;
+}
+ul.sub-menu > li > a:hover > span.back {
+  display: inline-block;
+}
+
+/* sub-menu2 */
+ul.sub-menu > li:hover > ul.sub-menu2 {
+  display: block;
+}
+ul.sub-menu2 {
+  padding: 10px 0px;
+  width: 294px;
+  height: 100vh;
+  background-color: #ffffff;
+  position: absolute;
+  right: 100%;
+  top: 0;
+  border-right: 1px solid gray;
+  box-shadow: inset -4px 0px 7px -6px;
+  display: none;
+}
+
+ul.sub-menu2 > a > div {
+  width: 85%;
+  height: 38px;
+  background-color: #f3f8fd;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding-right: 30px;
+  line-height: 38px;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+ul.sub-menu2 > li {
+  height: 42px;
+  width: 95%;
+  margin: 8px 5px;
+  position: relative;
+  vertical-align: middle;
+}
+ul.sub-menu2 > li > a {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+
+  color: black;
+  padding-right: 20px;
+}
+ul.sub-menu2 > li:hover > a {
+  background-color: #f3f8fd;
+  border-radius: 10px 0 0 10px;
+}
+ul.sub-menu2 > li:hover > a > span.back {
+  display: inline-block;
+}
+
+ul.sub-menu2 > li > a > span.content {
+  width: 80%;
+  height: 100%;
+  font-size: 13px;
+  line-height: 42px;
+}
+ul.sub-menu2 > li > a > span.back {
+  vertical-align: middle;
+}
+/* end ofsub-menu2 */
+
+/* laptop */
+
+.laptop {
+  top: -60px !important;
+}
+/* end of lap top */
+/* هدفون و هندزفری */
+.hedphone {
+  top: -120px !important;
+}
+
+/* ساعت و بند هوشمند */
+.watch {
+  top: -180px !important;
+}
+
+/* کامپیوتر وتجهیزات اداری */
+.computer {
+  top: -240px !important;
+}
+/* شبکه و ارتباطات  */
+.network {
+  top: -300px !important;
+}
+/*  کتاب و کتابخوان  */
+.book {
+  top: -360px !important;
+}
+/* لوازم خانگی  */
+.household {
+  top: -420px !important;
+}
+/* صوتی وتصویری  */
+.audio {
+  top: -480px !important;
+}
+/* گیمینگ */
+.game {
+  top: -540px !important;
+}
+/* طلا و جواهرات،ساعت  */
+.gold {
+  top: -600px !important;
+}
+/* زیبایی وسلامت  */
+.beauty {
+  top: -660px !important;
+}
+/* ورزش وسلامت  */
+.sports {
+  top: -720px !important;
+}
+/* ابزارآلات و تجهیزات  */
+.tools {
+  top: -780px !important;
+}
+/* کارت هدیه  */
+.gift {
+  top: -840px !important;
+}
+/* sub-menu3 */
+ul.sub-menu2 > li:hover > ul.sub-menu3 {
+  display: block;
+}
+ul.sub-menu3 {
+  padding: 10px 0px;
+  width: 290px;
+  height: 100vh;
+  background-color: #f3f8fd;
+  position: absolute;
+  right: 103%;
+  top: -58px;
+  border-right: 1px solid gray;
+  box-shadow: inset -4px 0px 7px -6px;
+  display: none;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+ul.sub-menu3 > a > div {
+  width: 85%;
+  height: 38px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding-right: 30px;
+  line-height: 38px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+ul.sub-menu3 > li {
+  width: 100%;
+  margin: 0 5px;
+  position: relative;
+  vertical-align: middle;
+}
+ul.sub-menu3 > li > a {
+  width: 95%;
+  display: inline-block;
+  line-height: 42px;
+  color: black;
+  padding-right: 20px;
+  font-size: 14px;
+}
+ul.sub-menu3 > li:hover > a {
+  font-weight: bold;
+}
+
+ul.sub-menu3 > li > a > span.content {
+  width: 80%;
+  font-size: 12px;
+}
+/* end sub-menu3 */
+/* sub4 */
+ul.sub4 {
+  width: 80%;
+  border-right: 1px solid #e6e0e0;
+  margin: 0 auto;
+  padding: 6px 14px 12px 0;
+}
+ul.sub4 > li {
+  width: 100%;
+  height: 44px;
+}
+
+ul.sub4 > li > a {
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+  color: black;
+}
+
+ul.sub4 > li:hover > a {
+  font-weight: bold;
+}
+
+/* end sub4 */
+
+/* TOPS */
+.top1 {
+  top: -108px !important;
+}
+.top2 {
+  top: -158px !important;
+}
+.top3 {
+  top: -208px !important;
+}
+.top4 {
+  top: -258px !important;
+}
+.top5 {
+  top: -308px !important;
+}
+.top6 {
+  top: -358px !important;
+}
+.top7 {
+  top: -408px !important;
+}
+.top8 {
+  top: -458px !important;
+}
+.top9 {
+  top: -508px !important;
+}
+.top10 {
+  top: -558px !important;
+}
+.top11 {
+  top: -608px !important;
+}
+.top12 {
+  top: -658px !important;
+}
+/* END OF TOPS */

@@ -1,0 +1,154 @@
+section.weblog{
+    border:1px solid rgb(145 158 188 );
+ 
+    width:80%;
+    height: 357px;
+    margin:62px auto;
+    padding:32px 0 24px;
+    border-radius: 20px;
+}
+section.weblog>div.weblog-banner {
+    width: 99%;
+    height:32px;
+    margin: 0 auto;
+ 
+    border-radius: 0.5rem;
+  }
+  section.weblog > div.weblog-banner > h4 {
+    text-align: right;
+    height: 100%;
+    width: 85%;
+    display: inline-block;
+    color:#000002;
+    line-height:53px ;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0px 40px 20px 0;
+
+    vertical-align: middle;
+  }
+  section.weblog > div.weblog-banner >a> p {
+    width: 14%;
+    height: 100%;
+    display: inline-block;
+    color:#223c78;
+    font-weight: 300;
+  
+    font-size: 16px;
+    text-align: left;
+   vertical-align: middle;
+    padding-bottom: 10px;
+    font-weight: bold;
+  }
+  section.weblog > div.weblog-banner>a > p > svg {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+  }
+  /* weblog-content-slider */
+section.weblog > div.weblog-content > div.swiper {
+    width: 100%;
+    height:290px;
+ text-align: center;
+  padding:48px 0 42px;
+  padding-right:60px;
+    margin:0 auto;
+  }
+  
+  section.weblog
+    > div.weblog-content
+    > div.swiper
+    > div.swiper-wrapper
+    > div.swiper-slide {
+    width:250px;
+    height:140px;
+    display: block;
+    margin:0 auto;
+    font-size: 12px;
+  }
+  
+
+  section.weblog
+  > div.weblog-content
+  > div.swiper
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > div.caption {
+  width: 85%;
+  margin: 0 auto;
+  height: 25px;
+  text-align:left;
+  color: #dc2d36;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 0;
+  }
+  
+  section.weblog
+    > div.weblog-content
+    > div.swiper
+    > div.swiper-wrapper
+    > div.swiper-slide
+    > div.slide {
+        width: 250px;
+        height:200px;
+        background-color: rgb(51 51 51 );
+        border-radius:0 0 10px 10px;
+        vertical-align: top;
+  }
+  
+  section.weblog
+    > div.weblog-content
+    > div.swiper
+    > div.swiper-wrapper
+    > div.swiper-slide
+    > div.slide>a
+    > img {
+        width: 100%;
+        height:140px;
+    margin: 0 auto;
+  }
+  section.weblog
+  > div.weblog-content
+  > div.swiper
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > div.slide>a>div{
+    background-color: #dc2d36;
+    width:250px;
+    height: 60px;
+
+  }
+   section.weblog
+    > div.weblog-content
+    > div.swiper
+    > div.swiper-wrapper
+    > div.swiper-slide
+    > div.slide
+    > div {
+ 
+        width: 100%;
+        height: 60px;
+        background-color: brown;
+        border-radius:0 0 10px 10px;
+        background-color: rgb(51 51 51 );
+  }
+  section.weblog
+    > div.weblog-content
+    > div.swiper
+    > div.swiper-wrapper
+    > div.swiper-slide
+    > div.slide
+    > div >a{
+        display: inline-block;
+        width: 80%;
+        text-align: right;
+        font-size:14px;
+        color: white;
+
+    }
+  
+ 
+  
+ 

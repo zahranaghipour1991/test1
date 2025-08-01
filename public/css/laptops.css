@@ -1,0 +1,175 @@
+section.laptops-in{
+    border:1px solid rgb(145 158 188 );
+    width:80%;
+    height: 465px;
+    margin:62px auto ;
+    padding:25px 0 24px;
+    border-radius: 20px;
+}
+section.laptops-in>div.laptops-in-banner {
+    width: 99%;
+    height:45px;
+    margin: 0 auto;
+   
+
+    border-radius: 0.5rem;
+  }
+  section.laptops-in > div.laptops-in-banner > h4 {
+    text-align: right;
+    height: 100%;
+    width: 85%;
+    display: inline-block;
+    color:#000002;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 40px 10px 0;
+  }
+  section.laptops-in > div.laptops-in-banner>a > p {
+    width: 14%;
+    height: 100%;
+    display: inline-block;
+    color:#223c78;
+    font-weight: 300;
+  
+    font-size: 16px;
+    text-align: left;
+    vertical-align: middle;
+    padding-bottom: 20px;
+    font-weight: bold;
+  }
+  section.laptops-in > div.laptops-in-banner >a> p > svg {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+  }
+  /* laptops-in-content-slider */
+section.laptops-in > div.laptops-in-content > div.swiper {
+    width: 100%;
+    height: 357.94px;
+    margin:0px auto 30px;
+  }
+  
+  section.laptops-in
+    > div.laptops-in-content
+    > div.swiper
+    > div.swiper-wrapper
+    > div.swiper-slide {
+    width:250.66px;
+    height:87%;
+    display: block;
+    margin:20px auto;
+    font-size: 12px;
+  }
+  /* caption */
+
+
+  section.laptops-in
+  > div.laptops-in-content
+  > div.swiper
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > div.caption {
+  width: 85%;
+  margin: 0 auto;
+  height: 25px;
+  text-align:right;
+  color: #dc2d36;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 0;
+
+ 
+
+}
+
+
+section.laptops-in
+  > div.laptops-in-content
+  > div.swiper
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > div.hr {
+  width: 83%;
+  height: 4px;
+  background-color: #dc2d36;
+  text-align: center;
+  margin: 0 auto;
+}
+/* end caption */
+  
+  
+  section.laptops-in
+    > div.laptops-in-content
+    > div.swiper
+    > div.swiper-wrapper
+    > div.swiper-slide
+    > div.slide {
+    border-left: 2px solid #c0c0c0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  
+  section.laptops-in
+    > div.laptops-in-content
+    > div.swiper
+    > div.swiper-wrapper
+    > div.swiper-slide
+    > div.slide
+    > img {
+    width: 186px;
+    height: 186px;
+    margin: 0 auto;
+  }
+  section.laptops-in
+    > div.laptops-in-content
+    > div.swiper
+    > div.swiper-wrapper
+    > div.swiper-slide
+    > div.slide
+    > a {
+    color: #212121;
+    display: inline-block;
+    width: 186px;
+    height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    padding: 16px 0 0;
+  }
+  
+ 
+  section.laptops-in
+    > div.laptops-in-content
+    > div.swiper
+    > div.swiper-wrapper
+    > div.swiper-slide
+    > div.slide
+    > div.before-price{
+        height: 80%;
+        text-align:left;
+        padding: 20px 30px;
+
+    }
+  section.laptops-in
+    > div.laptops-in-content
+    > div.swiper
+    > div.swiper-wrapper
+    > div.swiper-slide
+    > div.slide
+    > div.before-price>span{
+        display: inline-block;
+    
+        height: 46px;
+    color: #020505;
+
+    font-size: 16px;
+    font-weight: bold;
+    
+
+  }
+ 
+  
+ 

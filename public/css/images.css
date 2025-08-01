@@ -1,0 +1,12 @@
+section.images{
+    width:81%;
+    height: 238.15px;
+    margin:62px auto;
+}
+section.images>a>img{
+    width:519px;
+    height:238.15px;
+    display: inline-block;
+  margin:0 12px;
+  border-radius: 18px;
+}

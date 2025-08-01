@@ -1,0 +1,158 @@
+
+header {
+    width: 100%;
+    height:160px;
+   
+    top: 0;
+    position: sticky;
+    z-index: 9999;
+    background-color: white;
+
+  }
+  
+  section.top-baner {
+    width: 100%;
+    height: 64px;
+ 
+    background-color: white;
+  
+  }
+  section.top-baner>a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+  section.top-baner>a>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+  
+  
+  .base-containor {
+    width: 90%;
+    height: 130px;
+  
+    margin: 0 auto;
+    padding-top: 16px;
+  }
+  .containor {
+    width: 100%;
+    height: 65px;
+  
+    padding-bottom: 10px;
+
+  }
+  
+  div.right {
+    width: 57%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+   
+  }
+   div.logo {
+    display: inline-block;
+    width: 110px;
+    height: 40px;
+    vertical-align: middle;
+  }
+  
+   div.logo > a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+   div.logo
+    > a
+    > svg {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+  }
+  /* serch-div */
+  div.searchbar {
+    display: inline-block;
+    width: 652px;
+    height: 100%;
+  
+    vertical-align: middle;
+  }
+  
+  
+   div.searchbar
+    > form {
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+   padding: 10px;
+   margin-right: 36px;
+  }
+  div.searchbar
+  > form>span>svg {
+    width: 2rem;
+    height: 2rem;
+    vertical-align: middle;
+    margin-right: 16px;
+  
+  
+  }
+   
+  
+    div.searchbar
+    > form
+    > input {
+    width:80%;
+    height: 100%;
+    display: inline-block;
+    padding: 0 24px;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+  
+    background-color: #f0f0f0;
+    cursor: text;
+  }
+  form>input::placeholder{
+    color:#818383;
+    font-size: 14px;
+  }
+  
+  div.login-btn {
+   
+    width: 159.5px;
+    height: 40px;
+    padding: 0 0 0 12px;
+  margin-right:571px;
+  vertical-align: middle;
+    border: 1px solid #223c78;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 14px;
+    display: inline-block;
+  }
+  div.module-cart {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #d7dee0;
+    border-radius: 10px;
+    vertical-align: middle;
+  
+  }
+  div.module-cart > svg {
+    width: 1.5rem;
+    vertical-align: 8px;
+   
+  }
+  p.text {
+    padding: 5px 12px 0 12px;
+    margin-top: 5px;
+    display: inline-block;
+    color: #212121;
+  }
+ 

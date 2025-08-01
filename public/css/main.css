@@ -1,0 +1,40 @@
+@import url(header.css);
+@import url(menu.css);
+@import url(banner-slider.css);
+@import url(storyLine.css);
+@import url(technooff.css);
+@import url(images.css);
+@import url(flags.css);
+@import url(best-mobile.css);
+@import url(middle-banner.css);
+@import url(laptops.css);
+@import url(best-laptops.css);
+@import url(images-2.css);
+@import url(mob-section.css);
+@import url(best-hefphone.css);
+@import url(brand.css);
+@import url(computers.css);
+@import url(house-section.css);
+@import url(best-tools.css);
+@import url(weblog.css);
+@import url(article-tec.css);
+@import url(footer.css);
+@import url(house-techno.css);
+@font-face {
+  font-family: yekan;
+  src: url("/public/fonts/YekanBakh-Regular.woff2");
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: yekan;
+  text-decoration: none;
+   list-style: none;
+}
+html{
+  scroll-behavior: smooth;
+}

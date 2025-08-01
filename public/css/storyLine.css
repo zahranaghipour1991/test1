@@ -1,0 +1,46 @@
+/* story line */
+section.story{
+    width:80%;
+    height: 200px;
+    margin: 50px auto;
+  }
+  
+  section.story>div.swiper>div.swiper-wrapper>div.swiper-slide{
+    width: 200px !important;
+    height: 100%;
+    padding-top: 10px;
+  }
+  
+  section.story>div.swiper>div.swiper-wrapper>div.swiper-slide>a{
+    width: 130px;
+    height: 100%;
+    display: inline-block;
+  
+  }
+  
+  section.story>div.swiper>div.swiper-wrapper>div.swiper-slide>a>img{
+    width: 100%;
+    height: 130px;
+    outline: 1px solid skyblue;
+    outline-offset: 4px;
+    border-radius: 50%;
+    transition: 200ms;
+  }
+  
+  section.story>div.swiper>div.swiper-wrapper>div.swiper-slide>a>span{
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  section.story>div.swiper>div.swiper-wrapper>div.swiper-slide>a:hover>img{
+    outline: 4px solid rgb(59, 134, 219);
+  }
+  .next.svg{
+    width:1.5rem;
+    height: 1.5rem;
+    background-color: white;
+    border:1px solid rgb(59, 134, 219);;
+    border-radius: 50%;
+
+  }
